@@ -1,0 +1,572 @@
+@article{gruss-thesis,
+  author    = {Daniel Gruss},
+  title     = {Software-based Microarchitectural Attacks},
+  journal   = {CoRR},
+  volume    = {abs/1706.05973},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1706.05973},
+  archivePrefix = {arXiv},
+  eprint    = {1706.05973},
+  biburl    = {https://dblp.org/rec/journals/corr/Gruss17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@thesis{gruss-habil,
+    title = {Transient-Execution Attacks},
+    author = {Daniel Gruss},
+    year = {2020},
+    url = {https://gruss.cc/files/habil.pdf},
+    urldate = {2021-01-15}
+}
+
+@manual{intel-sdm-1,
+    author = {{Intel Corporation}},
+    year = {2021},
+    title = {Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 1},
+    url = {https://software.intel.com/content/dam/develop/external/us/en/documents-tps/253665-sdm-vol-1.pdf},
+    urldate = {2021-01-20}
+}
+
+@manual{intel-sdm-2,
+    author = {{Intel Corporation}},
+    year = {2021},
+    title = {Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 2},
+    url = {https://software.intel.com/content/dam/develop/external/us/en/documents-tps/325383-sdm-vol-2abcd.pdf},
+    urldate = {2021-01-20}
+}
+
+@manual{intel-sdm-3,
+    author = {{Intel Corporation}},
+    year = {2021},
+    title = {Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 3},
+    url = {https://software.intel.com/content/dam/develop/external/us/en/documents-tps/325384-sdm-vol-3abcd.pdf},
+    urldate = {2021-01-20}
+}
+
+@manual{intel-sdm-4,
+    author = {{Intel Corporation}},
+    year = {2021},
+    title = {Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 4},
+    url = {https://software.intel.com/content/dam/develop/external/us/en/documents-tps/335592-sdm-vol-4.pdf},
+    urldate = {2021-01-20}
+}
+
+@manual{intel-opt,
+    author = {{Intel Corporation}},
+    year = {2021},
+    title = {Intel® 64 and IA-32 Architectures Optimization Reference Manual},
+    url = {https://software.intel.com/content/dam/develop/public/us/en/documents/64-ia-32-architectures-optimization-manual.pdf},
+    urldate = {2021-01-21}
+}
+
+@manual{intel-intrin,
+    author = {{Intel Corporation}},
+    year = {2021},
+    title = {Intel® Intrinsics Guide},
+    url = {https://software.intel.com/sites/landingpage/IntrinsicsGuide},
+    urldate = {2021-03-04}
+}
+
+@incollection{man-sigaction,
+    author = {{Linux Kernel Organization}},
+    year = {2021},
+    title = {{sigaction(2)}},
+    booktitle = {The Linux man-pages project},
+    url = {https://man7.org/linux/man-pages/man2/sigaction.2.html},
+    urldate = {2021-03-05}
+}
+
+@incollection{man-setjmp,
+    author = {{Linux Kernel Organization}},
+    year = {2021},
+    title = {{setjmp(3)}},
+    booktitle = {The Linux man-pages project},
+    url = {https://man7.org/linux/man-pages/man3/setjmp.3.html},
+    urldate = {2021-03-05}
+}
+
+@incollection{linux-doc-vm,
+    author = {{Linux Kernel Organization}},
+    year = {2021},
+    title = {Documentation for {/proc/sys/vm/}},
+    booktitle = {The Linux kernel user’s and administrator’s guide},
+    url = {https://www.kernel.org/doc/html/latest/admin-guide/sysctl/vm.html},
+    urldate = {2021-03-14}
+}
+
+@incollection{linux-doc-cmdline,
+    author = {{Linux Kernel Organization}},
+    year = {2021},
+    title = {The kernel’s command-line parameters},
+    booktitle = {The Linux kernel user’s and administrator’s guide},
+    url = {https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html},
+    urldate = {2021-03-20}
+}
+
+@incollection{linux-doc-governor,
+    author = {{Linux Kernel Organization}},
+    year = {2021},
+    title = {CPU Performance Scaling},
+    booktitle = {The Linux kernel user’s and administrator’s guide},
+    url = {https://www.kernel.org/doc/html/latest/admin-guide/pm/cpufreq.html},
+    urldate = {2021-03-20}
+}
+
+@incollection{linux-x86config,
+    author = {{Linux Kernel Organization}},
+    year = {2021},
+    title = {{arch/x86/Kconfig}},
+    booktitle = {Linux Kernel Source Code},
+    url = {https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/x86/Kconfig?h=v5.10},
+    urldate = {2021-03-14}
+}
+
+@inproceedings{spectre,
+  author    = {Paul Kocher and
+               Jann Horn and
+               Anders Fogh and
+               Daniel Genkin and
+               Daniel Gruss and
+               Werner Haas and
+               Mike Hamburg and
+               Moritz Lipp and
+               Stefan Mangard and
+               Thomas Prescher and
+               Michael Schwarz and
+               Yuval Yarom},
+  title     = {Spectre Attacks: Exploiting Speculative Execution},
+  booktitle = {2019 {IEEE} Symposium on Security and Privacy, {SP} 2019, San Francisco,
+               CA, USA, May 19-23, 2019},
+  pages     = {1--19},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/SP.2019.00002},
+  doi       = {10.1109/SP.2019.00002},
+  biburl    = {https://dblp.org/rec/conf/sp/KocherHFGGHHLM019.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{spectre-spectrersb,
+  author    = {Esmaeil Mohammadian Koruyeh and
+               Khaled N. Khasawneh and
+               Chengyu Song and
+               Nael B. Abu-Ghazaleh},
+  editor    = {Christian Rossow and
+               Yves Younan},
+  title     = {Spectre Returns! Speculation Attacks using the Return Stack Buffer},
+  booktitle = {12th {USENIX} Workshop on Offensive Technologies, {WOOT} 2018, Baltimore,
+               MD, USA, August 13-14, 2018},
+  publisher = {{USENIX} Association},
+  year      = {2018},
+  url       = {https://www.usenix.org/conference/woot18/presentation/koruyeh},
+  biburl    = {https://dblp.org/rec/conf/woot/KoruyehKSA18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{spectre-ret2spec,
+  author    = {Giorgi Maisuradze and
+               Christian Rossow},
+  editor    = {David Lie and
+               Mohammad Mannan and
+               Michael Backes and
+               XiaoFeng Wang},
+  title     = {ret2spec: Speculative Execution Using Return Stack Buffers},
+  booktitle = {Proceedings of the 2018 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, {CCS} 2018, Toronto, ON, Canada, October
+               15-19, 2018},
+  pages     = {2109--2122},
+  publisher = {{ACM}},
+  year      = {2018},
+  url       = {https://doi.org/10.1145/3243734.3243761},
+  doi       = {10.1145/3243734.3243761},
+  biburl    = {https://dblp.org/rec/conf/ccs/MaisuradzeR18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{spectre-sgxpectre,
+  author    = {Guoxing Chen and
+               Sanchuan Chen and
+               Yuan Xiao and
+               Yinqian Zhang and
+               Zhiqiang Lin and
+               Ten-Hwang Lai},
+  title     = {SgxPectre: Stealing Intel Secrets from {SGX} Enclaves Via Speculative
+               Execution},
+  booktitle = {{IEEE} European Symposium on Security and Privacy, EuroS{\&}P
+               2019, Stockholm, Sweden, June 17-19, 2019},
+  pages     = {142--157},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/EuroSP.2019.00020},
+  doi       = {10.1109/EuroSP.2019.00020},
+  biburl    = {https://dblp.org/rec/conf/eurosp/ChenCXZLL19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{spectre-branchscope,
+  author    = {Dmitry Evtyushkin and
+               Ryan Riley and
+               Nael B. Abu-Ghazaleh and
+               Dmitry Ponomarev},
+  editor    = {Xipeng Shen and
+               James Tuck and
+               Ricardo Bianchini and
+               Vivek Sarkar},
+  title     = {BranchScope: {A} New Side-Channel Attack on Directional Branch Predictor},
+  booktitle = {Proceedings of the Twenty-Third International Conference on Architectural
+               Support for Programming Languages and Operating Systems, {ASPLOS}
+               2018, Williamsburg, VA, USA, March 24-28, 2018},
+  pages     = {693--707},
+  publisher = {{ACM}},
+  year      = {2018},
+  url       = {https://doi.org/10.1145/3173162.3173204},
+  doi       = {10.1145/3173162.3173204},
+  biburl    = {https://dblp.org/rec/conf/asplos/EvtyushkinRAP18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@online{spectre-4,
+  title={speculative execution, variant 4: speculative store bypass},
+  author={Jann Horn},
+  year={2018},
+  url = {https://bugs.chromium.org/p/project-zero/issues/detail?id=1528},
+  urldate = {2021-03-27}
+}
+
+@inproceedings{meltdown,
+  author    = {Moritz Lipp and
+               Michael Schwarz and
+               Daniel Gruss and
+               Thomas Prescher and
+               Werner Haas and
+               Anders Fogh and
+               Jann Horn and
+               Stefan Mangard and
+               Paul Kocher and
+               Daniel Genkin and
+               Yuval Yarom and
+               Mike Hamburg},
+  editor    = {William Enck and
+               Adrienne Porter Felt},
+  title     = {Meltdown: Reading Kernel Memory from User Space},
+  booktitle = {27th {USENIX} Security Symposium, {USENIX} Security 2018, Baltimore,
+               MD, USA, August 15-17, 2018},
+  pages     = {973--990},
+  publisher = {{USENIX} Association},
+  year      = {2018},
+  url       = {https://www.usenix.org/conference/usenixsecurity18/presentation/lipp},
+  biburl    = {https://dblp.org/rec/conf/uss/Lipp0G0HFHMKGYH18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ridl,
+  author    = {Stephan van Schaik and
+               Alyssa Milburn and
+               Sebastian {\"{O}}sterlund and
+               Pietro Frigo and
+               Giorgi Maisuradze and
+               Kaveh Razavi and
+               Herbert Bos and
+               Cristiano Giuffrida},
+  title     = {{RIDL:} Rogue In-Flight Data Load},
+  booktitle = {2019 {IEEE} Symposium on Security and Privacy, {SP} 2019, San Francisco,
+               CA, USA, May 19-23, 2019},
+  pages     = {88--105},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/SP.2019.00087},
+  doi       = {10.1109/SP.2019.00087},
+  biburl    = {https://dblp.org/rec/conf/sp/SchaikMOFMRBG19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{fallout,
+  author    = {Claudio Canella and
+               Daniel Genkin and
+               Lukas Giner and
+               Daniel Gruss and
+               Moritz Lipp and
+               Marina Minkin and
+               Daniel Moghimi and
+               Frank Piessens and
+               Michael Schwarz and
+               Berk Sunar and
+               Jo Van Bulck and
+               Yuval Yarom},
+  editor    = {Lorenzo Cavallaro and
+               Johannes Kinder and
+               XiaoFeng Wang and
+               Jonathan Katz},
+  title     = {Fallout: Leaking Data on Meltdown-resistant CPUs},
+  booktitle = {Proceedings of the 2019 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, {CCS} 2019, London, UK, November 11-15, 2019},
+  pages     = {769--784},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3319535.3363219},
+  doi       = {10.1145/3319535.3363219},
+  biburl    = {https://dblp.org/rec/conf/ccs/CanellaGGGLMMP019.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{zombieload,
+  author    = {Michael Schwarz and
+               Moritz Lipp and
+               Daniel Moghimi and
+               Jo Van Bulck and
+               Julian Stecklina and
+               Thomas Prescher and
+               Daniel Gruss},
+  editor    = {Lorenzo Cavallaro and
+               Johannes Kinder and
+               XiaoFeng Wang and
+               Jonathan Katz},
+  title     = {ZombieLoad: Cross-Privilege-Boundary Data Sampling},
+  booktitle = {Proceedings of the 2019 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, {CCS} 2019, London, UK, November 11-15, 2019},
+  pages     = {753--768},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3319535.3354252},
+  doi       = {10.1145/3319535.3354252},
+  biburl    = {https://dblp.org/rec/conf/ccs/0001LMBS0G19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{foreshadow,
+  author    = {Jo Van Bulck and
+               Marina Minkin and
+               Ofir Weisse and
+               Daniel Genkin and
+               Baris Kasikci and
+               Frank Piessens and
+               Mark Silberstein and
+               Thomas F. Wenisch and
+               Yuval Yarom and
+               Raoul Strackx},
+  editor    = {William Enck and
+               Adrienne Porter Felt},
+  title     = {Foreshadow: Extracting the Keys to the Intel {SGX} Kingdom with Transient
+               Out-of-Order Execution},
+  booktitle = {27th {USENIX} Security Symposium, {USENIX} Security 2018, Baltimore,
+               MD, USA, August 15-17, 2018},
+  pages     = {991--1008},
+  publisher = {{USENIX} Association},
+  year      = {2018},
+  url       = {https://www.usenix.org/conference/usenixsecurity18/presentation/bulck},
+  biburl    = {https://dblp.org/rec/conf/uss/BulckMWGKPSWYS18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{foreshadow-ng,
+  title={{Foreshadow-NG}: Breaking the Virtual Memory Abstraction with Transient Out-of-Order Execution},
+  author={Weisse, Ofir and Van Bulck, Jo and Minkin, Marina and  Genkin, Daniel and Kasikci, Baris and
+              Piessens, Frank and Silberstein, Mark and Strackx, Raoul and Wenisch, Thomas F. and Yarom, Yuval},
+  journal={Technical report},
+  year={2018},
+  url = {https://foreshadowattack.eu/foreshadow-NG.pdf},
+  urldate = {2021-03-20}
+}
+
+@article{lazyfp,
+  author    = {Julian Stecklina and
+               Thomas Prescher},
+  title     = {LazyFP: Leaking {FPU} Register State using Microarchitectural Side-Channels},
+  journal   = {CoRR},
+  volume    = {abs/1806.07480},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1806.07480},
+  archivePrefix = {arXiv},
+  eprint    = {1806.07480},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1806-07480.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{lvi,
+  author    = {Jo Van Bulck and
+               Daniel Moghimi and
+               Michael Schwarz and
+               Moritz Lipp and
+               Marina Minkin and
+               Daniel Genkin and
+               Yuval Yarom and
+               Berk Sunar and
+               Daniel Gruss and
+               Frank Piessens},
+  title     = {{LVI:} Hijacking Transient Execution through Microarchitectural Load
+               Value Injection},
+  booktitle = {2020 {IEEE} Symposium on Security and Privacy, {SP} 2020, San Francisco,
+               CA, USA, May 18-21, 2020},
+  pages     = {54--72},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/SP40000.2020.00089},
+  doi       = {10.1109/SP40000.2020.00089},
+  biburl    = {https://dblp.org/rec/conf/sp/BulckM0LMGYSGP20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{flush-reload,
+  author    = {Yuval Yarom and
+               Katrina Falkner},
+  editor    = {Kevin Fu and
+               Jaeyeon Jung},
+  title     = {{FLUSH+RELOAD:} {A} High Resolution, Low Noise, {L3} Cache Side-Channel
+               Attack},
+  booktitle = {Proceedings of the 23rd {USENIX} Security Symposium, San Diego, CA,
+               USA, August 20-22, 2014},
+  pages     = {719--732},
+  publisher = {{USENIX} Association},
+  year      = {2014},
+  url       = {https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom},
+  biburl    = {https://dblp.org/rec/conf/uss/YaromF14.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{flush-flush,
+  author    = {Daniel Gruss and
+               Cl{\'{e}}mentine Maurice and
+               Klaus Wagner and
+               Stefan Mangard},
+  editor    = {Juan Caballero and
+               Urko Zurutuza and
+               Ricardo J. Rodr{\'{\i}}guez},
+  title     = {Flush+Flush: {A} Fast and Stealthy Cache Attack},
+  booktitle = {Detection of Intrusions and Malware, and Vulnerability Assessment
+               - 13th International Conference, {DIMVA} 2016, San Sebasti{\'{a}}n,
+               Spain, July 7-8, 2016, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9721},
+  pages     = {279--299},
+  publisher = {Springer},
+  year      = {2016},
+  url       = {https://doi.org/10.1007/978-3-319-40667-1_14},
+  doi       = {10.1007/978-3-319-40667-1_14},
+  biburl    = {https://dblp.org/rec/conf/dimva/GrussMWM16.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{transient-fail,
+  author    = {Claudio Canella and
+               Jo Van Bulck and
+               Michael Schwarz and
+               Moritz Lipp and
+               Benjamin von Berg and
+               Philipp Ortner and
+               Frank Piessens and
+               Dmitry Evtyushkin and
+               Daniel Gruss},
+  editor    = {Nadia Heninger and
+               Patrick Traynor},
+  title     = {A Systematic Evaluation of Transient Execution Attacks and Defenses},
+  booktitle = {28th {USENIX} Security Symposium, {USENIX} Security 2019, Santa Clara,
+               CA, USA, August 14-16, 2019},
+  pages     = {249--266},
+  publisher = {{USENIX} Association},
+  year      = {2019},
+  url       = {https://www.usenix.org/conference/usenixsecurity19/presentation/canella},
+  biburl    = {https://dblp.org/rec/conf/uss/CanellaB0LBOPEG19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  note = {Erweiterter Klassifizierungsbaum unter https://transient.fail/}
+}
+
+@inproceedings{cache-random,
+  author    = {Kostas Pagiamtzis and
+               Ali Sheikholeslami},
+  title     = {Using cache to reduce power in content-addressable memories (CAMs)},
+  booktitle = {Proceedings of the {IEEE} 2005 Custom Integrated Circuits Conference,
+               {CICC} 2005, DoubleTree Hotel, San Jose, California, USA, September
+               18-21, 2005},
+  pages     = {369--372},
+  publisher = {{IEEE}},
+  year      = {2005},
+  url       = {https://doi.org/10.1109/CICC.2005.1568682},
+  doi       = {10.1109/CICC.2005.1568682},
+  biburl    = {https://dblp.org/rec/conf/cicc/PagiamtzisS05.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{cache-adaptive,
+  author    = {Moinuddin K. Qureshi and
+               Aamer Jaleel and
+               Yale N. Patt and
+               Simon C. Steely Jr. and
+               Joel S. Emer},
+  editor    = {Dean M. Tullsen and
+               Brad Calder},
+  title     = {Adaptive insertion policies for high performance caching},
+  booktitle = {34th International Symposium on Computer Architecture {(ISCA} 2007),
+               June 9-13, 2007, San Diego, California, {USA}},
+  pages     = {381--391},
+  publisher = {{ACM}},
+  year      = {2007},
+  url       = {https://doi.org/10.1145/1250662.1250709},
+  doi       = {10.1145/1250662.1250709},
+  biburl    = {https://dblp.org/rec/conf/isca/QureshiJPSE07.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{attack-kaslr,
+  author    = {Jakob Koschel and
+               Cristiano Giuffrida and
+               Herbert Bos and
+               Kaveh Razavi},
+  title     = {TagBleed: Breaking {KASLR} on the Isolated Kernel Address Space using
+               Tagged TLBs},
+  booktitle = {{IEEE} European Symposium on Security and Privacy, EuroS{\&}P
+               2020, Genoa, Italy, September 7-11, 2020},
+  pages     = {309--321},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/EuroSP48549.2020.00027},
+  doi       = {10.1109/EuroSP48549.2020.00027},
+  biburl    = {https://dblp.org/rec/conf/eurosp/KoschelGBR20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{sidechannel-tlb-1,
+  author    = {Ralf Hund and
+               Carsten Willems and
+               Thorsten Holz},
+  title     = {Practical Timing Side Channel Attacks against Kernel Space {ASLR}},
+  booktitle = {2013 {IEEE} Symposium on Security and Privacy, {SP} 2013, Berkeley,
+               CA, USA, May 19-22, 2013},
+  pages     = {191--205},
+  publisher = {{IEEE} Computer Society},
+  year      = {2013},
+  url       = {https://doi.org/10.1109/SP.2013.23},
+  doi       = {10.1109/SP.2013.23},
+  biburl    = {https://dblp.org/rec/conf/sp/HundWH13.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{sidechannel-tlb-2,
+  author    = {Ben Gras and
+               Kaveh Razavi and
+               Herbert Bos and
+               Cristiano Giuffrida},
+  editor    = {William Enck and
+               Adrienne Porter Felt},
+  title     = {Translation Leak-aside Buffer: Defeating Cache Side-channel Protections
+               with {TLB} Attacks},
+  booktitle = {27th {USENIX} Security Symposium, {USENIX} Security 2018, Baltimore,
+               MD, USA, August 15-17, 2018},
+  pages     = {955--972},
+  publisher = {{USENIX} Association},
+  year      = {2018},
+  url       = {https://www.usenix.org/conference/usenixsecurity18/presentation/gras},
+  biburl    = {https://dblp.org/rec/conf/uss/GrasRBG18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{classification,
+    title = {Classification assessment methods},
+    author = {Alaa Tharwat},
+    journal = {Applied Computing and Informatics},
+    year = {2020},
+    volume = {17},
+    number = {1},
+    pages = {168--192},
+    url = {https://doi.org/10.1016/j.aci.2018.08.003},
+    doi = {10.1016/j.aci.2018.08.003}
+}
